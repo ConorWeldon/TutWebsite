@@ -1,2 +1,2 @@
 # TutWebsite
- Tutorial Porfolio Website to teach to interns at Microsoft EMEA Wide.
+ Tutorial Porfolio Website that I will be teaching to interns at Microsoft EMEA Wide.
