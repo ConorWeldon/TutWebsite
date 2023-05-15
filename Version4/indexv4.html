@@ -2,13 +2,14 @@
 <html>
 <head>
   <title>My Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="mystylev3.css">
+  <link rel="stylesheet" type="text/css" href="css/mystylev4.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
     <div class="container">
-      <img src="your-image.png" alt="Your Name" class="profile-image">
+      <img src="../images/your-image.png" alt="Your Name" class="profile-image">
     </div>
   </header>
 
@@ -21,24 +22,37 @@
 
       <section id="skills">
         <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-        </ul>
+        <div class="skill">
+          <div class="skill-name">HTML</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">CSS</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 60%;"></div>
+          </div>
+        </div>
       </section>
 
       <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-          <img src="project1.png" alt="Project 1" class="project-image">
+          <img src="../images/project1.png" alt="Project 1" class="project-image">
           <div class="project-details">
             <h3>Project 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
         <div class="project">
-          <img src="project1.png" alt="Project 2" class="project-image">
+          <img src="../images/project1.png" alt="Project 2" class="project-image">
           <div class="project-details">
             <h3>Project 2</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
